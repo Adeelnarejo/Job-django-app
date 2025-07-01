@@ -30,3 +30,11 @@ def index(request):
             messages.success(request, 'Form submitted successfully!')
 
     return render(request, "index.html")
+
+
+def about(request):
+    return render(request, "about.html")
+
+
+def contact(request):
+    return render(request, "contact.html")
